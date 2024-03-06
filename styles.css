@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Sriracha"; /* Replace with the actual font family name */
+    src: url("Sriracha-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "RobotoSlab"; /* Replace with the actual font family name */
+    src: url("./RobotoSlab.ttf") format("truetype");
+}
+
+html, body {
+    margin: 0;
+    height: 95vh;
+    background-color: lightgreen;
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: lightgreen;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+sub {
+    position: relative;
+    top: 0.3rem;
+}
+
+#question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sriracha', 'Times New Roman', Times, serif;
+}
+
+#variants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.variant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 2rem;
+    margin: 2rem;
+    height: 4rem;
+    width: 5rem;
+    background: rgb(223, 225, 235);
+    border-radius: 50px;
+    font-family: 'RobotoSlab', 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.selected {
+    background-color: rgb(65, 191, 187);
+}
+
+#submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 13rem;
+    height: 2rem;
+    margin: 1rem auto;
+    font-family: 'Sriracha', 'Times New Roman', Times, serif;
+    color: rgb(188, 229, 188);
+}
+
+button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #a414a6;
+    cursor: pointer;
+    border: 1px solid #bd8181;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c4a1a1, -6px -6px 12px #d2b9b9;
+  }
+  
+  button:hover {
+    border: 1px solid rgb(187, 132, 132);
+  }
+  
+  button:active {
+    box-shadow: 4px 4px 12px #db7272, -4px -4px 12px #ffffff;
+  }
+  
