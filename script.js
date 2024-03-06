@@ -53,6 +53,9 @@ const questData = [
     {question: `pH < pOH тұзды анықтаңыз`, type:"acidic"},
     {question: `[H${toSup("+")}] > [OH${toSup("-")}] тұзды анықтаңыз`, type:"acidic"},
     {question: "Катион бойынша гидролизденетін тұздарды анықтаңыз", type:"acidic"},
+    {question: "Ерітіндісі лакмусты қызылға бояйтын тұздарды анықтаңыз", type:"acidic"},
+    {question: "Ерітіндісі метилоранжды қызылға бояйтын тұздарды анықтаңыз", type:"acidic"},
+    
 
     {question: "Негіздік орта түзетін тұзды анықтаңыз", type:"basic"},
     {question: "pH>7 тұзды анықтаңыз", type:"basic"},
@@ -60,6 +63,9 @@ const questData = [
     {question: "pH>pOH тұзды анықтаңыз", type:"basic"},
     {question: `[H${toSup("+")}] < [OH${toSup("-")}] тұзды анықтаңыз`, type:"basic"},
     {question: "Анион бойынша гидролизденетін тұздарды анықтаңыз", type:"basic"},
+    {question: "Ерітіндісі фенолфталейнді таңқурайға бояйтын тұздарды анықтаңыз", type:"basic"},
+    {question: "Ерітіндісі лакмусты көкке бояйтын тұздарды анықтаңыз", type:"basic"},
+    {question: "Ерітіндісі метилоранжды сарыға бояйтын тұздарды анықтаңыз", type:"basic"},
 
     {question: "Бейтарап орта түзетін тұзды анықтаңыз", type:"neutral"},
     {question: "pH=7 тұзды анықтаңыз", type:"neutral"},
@@ -67,6 +73,8 @@ const questData = [
     {question: "pH=pOH тұзды анықтаңыз", type:"neutral"},
     {question: `[H${toSup("+")}] = [OH${toSup("-")}] тұзды анықтаңыз`, type:"neutral"},
     {question: "Гидролизге ұшырамайтын тұздарды анықтаңыз", type:"neutral"},
+    {question: "Ерітіндісі лакмусты күлгінге бояйтын тұздарды анықтаңыз", type:"neutral"},
+    
 
 ]
 
