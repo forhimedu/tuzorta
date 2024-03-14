@@ -7,9 +7,13 @@
     src: url("./RobotoSlab.ttf") format("truetype");
 }
 
+* {
+    margin: 0;
+}
+
 html, body {
     margin: 0;
-    height: 95vh;
+    height: 100vh;
     background-color: lightgreen;
     
 }
@@ -17,7 +21,6 @@ html, body {
 #container {
     display: flex;
     flex-direction: column;
-    height: 100%;
     background-color: lightgreen;
     width: 80%;
     margin: auto;
@@ -36,6 +39,11 @@ sub {
     align-items: center;
     justify-content: center;
     font-family: 'Sriracha', 'Times New Roman', Times, serif;
+    height: 3rem;
+}
+
+h1{
+    font-size: 1rem;
 }
 
 #variants {
@@ -49,9 +57,8 @@ sub {
     align-items: center;
     justify-content: center;
     background-color: lightblue;
-    padding: 2rem;
+    padding: 1rem;
     margin: 2rem;
-    height: 4rem;
     width: 5rem;
     background: rgb(223, 225, 235);
     border-radius: 50px;
